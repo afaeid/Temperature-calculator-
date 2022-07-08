@@ -62,6 +62,11 @@ justify-content: center; */
   margin: 15px 10px;
   font-size: 20px ;
   padding:8px;
+  transition: transform 0.3s
+}
+.keypads button:hover{
+ transform: scale(1.1);
+ box-shadow: 1px 1px 4px #B4B4B4
 }
 .modes{
   text-align: center;
