@@ -1,6 +1,5 @@
 var OutputScreen = document.querySelector('.output-screen');
 var ModeDirection = document.querySelector('.modes');
-var MainMode = document.querySelector('.main-mode');
 function input(num){
   OutputScreen.value+= num
 }
@@ -21,5 +20,8 @@ function cs(){
 }
 
 function del(){
-  OutputScreen.value = OutputScreen.value.slice(0,-1)
+  OutputScreen.value = OutputScreen.value.slice(0,-1);
+  if(OutputScreen.value == ''){
+    ModeDirection.innerText = '';
+  }
 }
