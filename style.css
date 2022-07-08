@@ -44,7 +44,7 @@ justify-content: center; */
   padding: 0 10px;
 }
 .keypads{
-  margin-top: 20px;
+  margin-top: 0px;
   width: 100%;
   height: 65%;
   /* display: flex;
@@ -62,7 +62,8 @@ justify-content: center; */
   margin: 15px 10px;
   font-size: 20px ;
   padding:8px;
-  transition: transform 0.3s
+  transition: 0.3s;
+  transition-property: transform, box-shadow
 }
 .keypads button:hover{
  transform: scale(1.1);
